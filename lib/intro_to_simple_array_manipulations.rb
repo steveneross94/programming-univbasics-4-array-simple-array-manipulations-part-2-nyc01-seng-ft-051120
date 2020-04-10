@@ -3,9 +3,7 @@ def using_concat(array1, array2)
 end
 
 def using_insert(array, element)
-  array = [" ", " ", " ", " ", " ", " ", " "]
-  element = "Python"
-  new_array = array.insert(4,element)
+  array.insert(4, item)
 end
 
 def using_uniq(array)
@@ -13,17 +11,14 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
-  instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-  flat_array = instruments.flatten
+
 end
 
 def using_delete(array, string)
-  array = ["Josh", "Steven", "Sophie", "Amanda"]
-  new_array = array.delete("Steven")
+  array.delete(string)
 
 end
 
 def using_delete_at(array, integer)
-  famous_robots = ["Johnny 5", "R2D2", "Robocop"]
-  deleted_robot = famous_robots.delete_at(2)
+  array.delete_at(2)
 end
